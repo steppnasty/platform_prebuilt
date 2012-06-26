@@ -53,7 +53,7 @@ if [ x$1 != x ] ; then
   prefix=$1
   shift
 else
-  prefix=/tmp/android-toolchain-eabi
+  prefix=/media/be23f0aa-78a7-4d6e-b79c-28f32370c597/Sources/aospX/prebuilt/linux-x86/toolchain/android-toolchain-eabi
 fi
 
 # Allow for alternate isysroot in which to find headers
