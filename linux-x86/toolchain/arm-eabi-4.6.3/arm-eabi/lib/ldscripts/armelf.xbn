@@ -3,7 +3,7 @@ OUTPUT_FORMAT("elf32-littlearm", "elf32-bigarm",
 	      "elf32-littlearm")
 OUTPUT_ARCH(arm)
 ENTRY(_start)
-SEARCH_DIR("/media/be23f0aa-78a7-4d6e-b79c-28f32370c597/Sources/aospX/prebuilt/linux-x86/toolchain/android-toolchain-eabi/arm-eabi/lib");
+SEARCH_DIR("/tmp/android-toolchain-eabi/arm-eabi/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */
